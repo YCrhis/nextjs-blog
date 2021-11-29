@@ -81,9 +81,9 @@ const Header = () => {
                                             <a>Works</a>
                                         </MenuItem>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/autors">
                                         <MenuItem>
-                                            <a>Post</a>
+                                            <a>Autors</a>
                                         </MenuItem>
                                     </Link>
                                 </MenuList>
