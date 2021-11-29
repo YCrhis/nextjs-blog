@@ -1,0 +1,26 @@
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: none; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(58, 58, 58);
+  border-radius: 2rem;
+}
+.link {
+  color: #d53f8c;
+}
+.menu__movil {
+  display: none;
+}
+@media (max-width: 550px) {
+  .header_main {
+    display: none;
+  }
+  .menu__movil {
+    display: block;
+  }
+}
