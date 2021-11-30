@@ -16,7 +16,7 @@ const Article = ({ children, title }) => {
             exit="exit"
             variants={variants}
             transition={{ duration: 0.7, type: 'easeInOut' }}
-            style={{ position: 'relative' }}
+            margin="auto"
         >
 
             <Box mt="-3">

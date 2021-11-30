@@ -14,7 +14,7 @@ const Home = () => {
         <Article title="Hi">
             <Container maxW="container.md">
                 <Box bg={bg} w="60%" m="auto" align="center" p={2} borderRadius="15" mb={30}>
-                    <h3>Hi, I'm software programmer from Perú</h3>
+                    <h3>Hi, I'm software programmer from Peru</h3>
                 </Box>
                 <section align="center">
                     <Box textAlign="green" align="center">
@@ -31,7 +31,7 @@ const Home = () => {
                     <Text color="pink.500" mb="3">Frondtend Development UI / UX Desing</Text>
                     <Box p="1">
                         <Text textAlign="center">
-                            I am a software programmer based in Peru (Lima), with some hobbies for technology and photography. I have experience working on the internet doing some web pages and personal projects.
+                            I am a software programmer based in Peru (Lima), with some hobbies for technology and photography. I have experienced working on the internet doing some web pages and personal projects.
                         </Text>
                     </Box>
 
@@ -47,7 +47,7 @@ const Home = () => {
                             <Box mt={6}>
                                 <Link href="/work">
                                     <Button colorScheme="teal" size="md" m="auto" display="block">
-                                        Look my work
+                                        Look at my work
                                     </Button>
                                 </Link>
                             </Box>
@@ -64,11 +64,11 @@ const Home = () => {
                             <Text textAlign="justify">Regarding my studies, I have a good academic training regarding my career and learning another language</Text>
                             <Flex mt="4" mb="2" alignItems="start">
                                 <Text fontSize="18px" fontWeight="700" m="5" color="pink.500">2021</Text>
-                                <Text textAlign="justify" mt="5">So far, I am studying at the <Link href="https://www.britanico.edu.pe/" color="pink.500"><a className="link">Britanico Britanica Institute</a></Link>, where I have learned my second language (English). I currently have intermediate English, i be able to communicate with people from other countries:</Text>
+                                <Text textAlign="justify" mt="5">So far, I am studying at the <Link href="https://www.britanico.edu.pe/" color="pink.500"><a className="link">Asociacion  cultural peruano británica BRITANICO</a></Link>, where I have learned my second language (English). I currently have intermediate English, i be able to communicate with people from other countries:</Text>
                             </Flex>
                             <Flex mt="4" mb="2">
                                 <Text fontSize="18px" fontWeight="700" m="5" color="pink.500">2021</Text>
-                                <Text textAlign="justify" mt="5">I completed my studies in Software Design and Development at the <Link href="google.com"><a className="link"> Tecsup </a></Link>Institute, being a semi-professional in my career.</Text>
+                                <Text textAlign="justify" mt="5">I completed my studies in Software Design and Development at <Link href="google.com"><a className="link"> Tecsup </a></Link>Institute, being a semi-professional in my career.</Text>
                             </Flex>
                         </Box>
                     </Box>
@@ -79,7 +79,7 @@ const Home = () => {
                     <Box mb="6">
                         <Text fontWeight="bold" fontSize="20px" variant="section-title" mb="5">I ♥</Text>
                         <Box ml="3">
-                            <Text>When I'm in my free time I like to play some viogames, <Link href="https://www.youtube.com/channel/UCuETImqyGcbEoNQGlgsCpuw"><a className="link">making some videos to my channel</a></Link> drawing something or making <Link href="/work"><a className="link"> my personal projects.</a></Link></Text>
+                            <Text>When I'm in my free time I like to play some videogames, <Link href="https://www.youtube.com/channel/UCuETImqyGcbEoNQGlgsCpuw"><a className="link">making some videos to my channel</a></Link> drawing something or making <Link href="/work"><a className="link"> my personal projects.</a></Link></Text>
                         </Box>
                     </Box>
                 </section>
