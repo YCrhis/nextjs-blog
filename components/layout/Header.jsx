@@ -28,7 +28,7 @@ const Header = () => {
 
                                 <Text fontWeight="bold" fontSize="20px">
                                     <Flex align="center" justify="space-between">
-                                        <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c39a.png" width="20px" alt="" />
+                                        <img src="/dog.png" width="20px" alt="" />
                                         Yeridi Crhis
                                     </Flex>
                                 </Text>
@@ -49,6 +49,11 @@ const Header = () => {
                                 <Link href="/work">
                                     <Button colorScheme="teal" variant="ghost">
                                         <a>Works</a>
+                                    </Button>
+                                </Link>
+                                <Link href="/news">
+                                    <Button colorScheme="teal" variant="ghost">
+                                        <a>News</a>
                                     </Button>
                                 </Link>
                                 <Link href="/autors">
@@ -79,6 +84,11 @@ const Header = () => {
                                     <Link href="/work">
                                         <MenuItem>
                                             <a>Works</a>
+                                        </MenuItem>
+                                    </Link>
+                                    <Link href="/news">
+                                        <MenuItem>
+                                            <a>News</a>
                                         </MenuItem>
                                     </Link>
                                     <Link href="/autors">

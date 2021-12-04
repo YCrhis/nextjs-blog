@@ -30,14 +30,19 @@ const Home = () => {
                     <Text fontWeight="bold" fontSize="30px">Yeridi Crhis H.T.</Text>
                     <Text color="pink.500" mb="3">Frondtend Development UI / UX Desing</Text>
                     <Box p="1">
-                        <Text textAlign="center">
+                        <Text textAlign="center" mb="10">
                             I am a software programmer based in Peru (Lima), with some hobbies for technology and photography. I have experienced working on the internet doing some web pages and personal projects.
                         </Text>
+                        <Link href="/me">
+                            <Button colorScheme="teal" size="md" m="auto" display="block">
+                                Read More About Me
+                            </Button>
+                        </Link>
                     </Box>
 
                 </section>
                 <section>
-                    <Box mt="20" mb="10">
+                    <Box mt="10" mb="10">
                         <Text fontWeight="bold" fontSize="20px" variant="section-title">My Work</Text>
                         <Box p="2">
                             <Paragraph>I have been working with the latest technologies required by the market, having a great knowledge in Frontend with technologies (React / Redux / Firebase / ThreeJs / React Context / others) and in the Backend (Java, JavaScript, Python and PHP), I have also worked with some databases (MongoDB, Firebase and SQL).<br /><br />

@@ -12,6 +12,7 @@ body::-webkit-scrollbar-thumb {
 }
 .link {
   color: #d53f8c;
+  text-decoration: none !important;
 }
 .menu__movil {
   display: none;
