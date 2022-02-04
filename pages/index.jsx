@@ -99,12 +99,6 @@ const Home = () => {
                                 url="https://www.facebook.com/profile.php?id=100075706231457"
                             />
                             <MyPopover
-                                name="Youtube"
-                                description="I upload some video blogs and tutorials with comedy"
-                                image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
-                                url="https://www.youtube.com/channel/UCuETImqyGcbEoNQGlgsCpuw"
-                            />
-                            <MyPopover
                                 name="Linkedin"
                                 description="If you want, you can find me in linkedin too."
                                 image="https://cdn-icons-png.flaticon.com/512/174/174857.png"

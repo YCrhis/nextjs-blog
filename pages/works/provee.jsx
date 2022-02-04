@@ -29,7 +29,7 @@ const Provee = () => {
                             <UnorderedList>
                                 <ListItem mb="3">
                                     <Badge colorScheme="green" mr="3">Used technology:</Badge>
-                                    <span>React- Redux - Spotify Api - Material UI</span>
+                                    <span>React- React Context  - Material UI</span>
                                 </ListItem>
                             </UnorderedList>
                         </Box>
